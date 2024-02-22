@@ -49,7 +49,7 @@ body{
 
 #dropdownDefaultButton{
     position: sticky;
-    top: 5dvh;
+    top: 5svh;
     z-index: 2;
     display: flex;
     align-items: center;
@@ -83,16 +83,12 @@ body{
 }
 
 .inset-text-effect {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 12px;
   display: inline-block;
   -webkit-box-sizing: content-box;
   -moz-box-sizing: content-box;
   box-sizing: content-box;
   border: none;
-  font: normal 70px/1 "Aladin", Helvetica, sans-serif;
+  font: normal 40px/1 "Aladin", Helvetica, sans-serif;
   color: rgb(167, 167, 167);
   text-align: center;
   text-transform: normal;
@@ -101,6 +97,7 @@ body{
   white-space: pre;
   text-shadow: 1px 1px 0 rgba(140,140,140,0.6) , -1px -1px 1px rgba(0,0,0,0.67) ;
 }
+
 
 .scroller {
     max-width: 350px;
