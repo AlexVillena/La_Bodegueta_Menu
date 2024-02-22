@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Bodegueta | Menu</title>
+    <!--Google Font-->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <!--Stylesheet-->
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css" rel="stylesheet" />
+    <link async href="http://fonts.googleapis.com/css?family=Aladin" data-generated="http://enjoycss.com" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+    <div id="inicio" class="menu">
+        <div class="heading">
+            <h1>La Bodegueta</h1>
+            <h3>&mdash; CARTA &mdash; </h3>
+        </div>
+<!-- Botón del dropdow -->
+        <button id="dropdownDefaultButton" data-dropdown-toggle="dropdown" class="text-white focus:outline-none font-medium rounded-full text-smdark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800" type="button">
+            <svg class="mr-3" width="22" height="22" viewBox="0 0 14 14" xmlns="http://www.w3.org/2000/svg">
+                <g fill="none" stroke="#FFFF" stroke-linecap="round" stroke-linejoin="round">
+                    <ellipse cx="10.6" cy="3.5" rx="2.4" ry="3"/>
+                    <path d="M10.6 6.5v7M3.5.5v13M6 .5V3a2.5 2.5 0 0 1-2.5 2.5h0A2.5 2.5 0 0 1 1 3V.5"/>
+                </g>
+            </svg>
+            <h2>Menú</h2> 
+            <svg class="w-2.5 h-2.5 " aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4"/>
+            </svg>
+        </button>
+            
+<!-- menu desplegado -->
+        <div id="dropdown" class="z-10 hidden divide-y divide-gray-100 rounded-lg shadow w-44">
+            <ul class="py-2 text-sm text-white" aria-labelledby="dropdownDefaultButton">
+            <li>
+                <a href="#inicio" class="block px-4 py-2 hover:bg-gray-600">Inicio</a>
+            </li>
+            <li>
+                <a href="#seccion_entrantes" class="block px-4 py-2 hover:bg-gray-600">Entrantes</a>
+            </li>
+            <li>
+                <a href="#seccion_principales" class="block px-4 py-2 hover:bg-gray-600">Principales</a>
+            </li>
+            <li>
+                <a href="#seccion_postres" class="block px-4 py-2 hover:bg-gray-600">Postres y cafés</a>
+            </li>
+            </ul>
+        </div>
+<!-- INICIO -->
+        <div id="seccion_inicio" class="seccion_inicio">
+            <div class="inset-text-effect">Los mejores platos de Alzira</div>
+                <div class="scroller" data-direction="right" data-speed="fast">
+                  <div class="scroller__inner">
+                    <img src="https://lh3.googleusercontent.com/p/AF1QipMLCduAv0Eh_3TZSUUaCRn7XzHlx1-dXeBYIkvC=s1360-w1360-h1020" alt="" />
+                    <img src="https://lh3.googleusercontent.com/p/AF1QipMg8TCU2rEAqyAnFoklGOAvBFAbem0M-x9x6gnX=s1360-w1360-h1020" alt="" />
+                    <img src="https://lh3.googleusercontent.com/p/AF1QipOVri9m8c8QYf2AjF272_W7HO5au8pXaUZGqYWI=s1360-w1360-h1020" alt="" />
+                    <img src="https://lh3.googleusercontent.com/p/AF1QipN2FUzJxEarCxBuK0aUAd1yOyE92vLSNc__ATe1=s1360-w1360-h1020" alt="" />
+                    <img src="https://lh3.googleusercontent.com/p/AF1QipPt8acY06_nZYBMTn_Ad7Uy6SOvYEKL25P6eHaD=s1360-w1360-h1020" alt="" />
+                    <img src="https://lh3.googleusercontent.com/p/AF1QipPtrxL6Im1ePrhJaUwq2m071WsLgIjlbRja1OMi=s138-w138-h108-n-k-no" alt="" />
+                  </div>
+                </div>
+                <section>
+                  <div class="px-4 mx-auto max-w-screen-xl text-center lg:py-5">
+                      <h1 id="texto_final" class="mb-4 drop-shadow-md text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl">¿Te ha gustado la experiencia en <br>La Bodegueta?</h1>
+                      <p id="parrafo_final" class="mb-8 drop-shadow-2xl text-lg font-normal text-gray-600 lg:text-xl sm:px-16 lg:px-48 ">Déjanos una review en Google y así podremos seguir mejorando la <strong>experiencia a nuestros clientes</strong>.</p>
+                      <div class="flex gap-4 lex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0">
+                          <a target="_blank" href="https://www.google.com/search?client=firefox-b-d&q=la+bodegueta#vhid=/g/11gd3944v7&vssid=global" class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">
+                              Dejar Review
+                              <svg class="w-3.5 h-3.5 ms-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                                  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                              </svg>
+                          </a>
+                              <div class="flex items-center">
+                                  <svg class="w-4 h-4 text-yellow-300 me-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                                      <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
+                                  </svg>
+                                  <p class="ms-2 text-sm font-bold text-gray-900 ">4.6</p>
+                                  <span class="w-1 h-1 mx-1.5 bg-gray-500 rounded-full dark:bg-gray-400"></span>
+                                  <a href="#" class="text-sm font-medium text-gray-900 underline hover:no-underline ">402 reviews</a>
+                              </div>
+                      </div>
+                  </div>
+                </section>
+              
+            </section>
+
+        </div>
+<!-- ENTRANTES -->
+        <div id="seccion_entrantes" class="seccion_entrantes">
+            <h2>&mdash; Entrantes &mdash;</h2>
+            <div class="menu_entrantes">
+                <div class="food-items">
+                    <img src="/Grid Food Menu/img/alto-angulo-delicioso-plato-tortilla-espanola.webp">
+                    <div class="details">
+                        <div class="details-sub">
+                            <h5>Pincho de tortilla de patatas</h5>
+                            <h5 class="price"> 1,50€ </h5>
+                        </div>
+                        <p>Una porción de tortilla hecha con huevos, patatas y cebolla, servida sobre una rebanada de pan.</p>
+                        <!-- <button>Add To Cart</button> -->
+                    </div>
+                </div>
+        
+                <div class="food-items">
+                    <img src="/Grid Food Menu/img/2019-05-18.jpg">
+                    <div class="details">
+                        <div class="details-sub">
+                            <h5>Ensaladilla rusa</h5>
+                            <h5 class="price"> 2,00€ </h5>
+                        </div>
+                        <p>Una ensalada fría de patatas, zanahorias, guisantes, atún y mayonesa.</p>
+                        <!-- <button>Add To Cart</button> -->
+                    </div>
+                </div>
+        
+                <div class="food-items">
+                    <img src="/Grid Food Menu/img/2024-02-22.png">
+                    <div class="details">
+                        <div class="details-sub">
+                            <h5>Pulpo a la gallega</h5>
+                            <h5 class="price"> 4,00€ </h5>
+                        </div>
+                        <p>	Trozos de pulpo cocido, aliñado con aceite de oliva, pimentón y sal, sobre una base de patatas.</p>
+                        <!-- <button>Add To Cart</button> -->
+                    </div>
+                </div>
+        
+                <div class="food-items">
+                    <img src="/Grid Food Menu/img/croquetas-fritas-tradicionales-espanolas-sobre-mesa-madera.webp">
+                    <div class="details">
+                        <div class="details-sub">
+                            <h5>Croquetas</h5>
+                            <h5 class="price"> 3,00€ </h5>
+                        </div>
+                        <p>	Bolas de bechamel rebozadas y fritas, que pueden llevar diferentes ingredientes como jamón, pollo, queso o bacalao.</p>
+                        <!-- <button>Add To Cart</button> -->
+                    </div>
+                </div>
+        
+                <div class="food-items">
+                    <img src="/Grid Food Menu/img/patatas-mixtas.webp">
+                    <div class="details">
+                        <div class="details-sub">
+                            <h5>Patatas bravas</h5>
+                            <h5 class="price"> 3,00€ </h5>
+                        </div>
+                        <p>Patatas fritas cortadas en dados, cubiertas con salsa brava, que puede variar según la región, pero suele llevar tomate, pimentón, vinagre y ajo.</p>
+                        <!-- <button>Add To Cart</button> -->
+                    </div>
+                </div>
+        
+                <div class="food-items">
+                    <img src="/Grid Food Menu/img/presentacion-principal-de-las-rabas-de-calamar.webp">
+                    <div class="details">
+                        <div class="details-sub">
+                            <h5>Rabas al estilo Santander</h5>
+                            <h5 class="price"> 4€ </h5>
+                        </div>
+                        <p>	Anillas de calamar rebozadas con harina y huevo, fritas en abundante aceite, y servidas con limón y mayonesa.</p>
+                        <!-- <button>Add To Cart</button> -->
+                    </div>
+                </div>
+
+                <div class="food-items">
+                    <img src="/Grid Food Menu/img/20190802_194804.jpg">
+                    <div class="details">
+                        <div class="details-sub">
+                            <h5>Tiras de pollo rebozadas</h5>
+                            <h5 class="price"> 3,50€ </h5>
+                        </div>
+                        <p>		Trozos de pechuga de pollo adobados con especias y rebozados con huevo y pan rallado, fritos en aceite caliente y servidos con salsa barbacoa o mayonesa.</p>
+                        <!-- <button>Add To Cart</button> -->
+                    </div>
+                </div>
+                <div class="food-items">
+                    <img src="/Grid Food Menu/img/morro-frito.jpg">
+                    <div class="details">
+                        <div class="details-sub">
+                            <h5>Morro Frito</h5>
+                            <h5 class="price"> 5,00€ </h5>
+                        </div>
+                        <p>	Fritura de morro de cerdo rebozado con harina y huevo acompañado con un toque de limón.</p>
+                        <!-- <button>Add To Cart</button> -->
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+<!-- PRINCIPALES -->
+        <div id="seccion_principales" class="seccion_entrantes">
+            <h2>&mdash; Principales &mdash;</h2>
+            <div class="menu_entrantes">
+                <div class="food-items">
+                    <img src="/Grid Food Menu/img/boca-calamares.jpg">
+                    <div class="details">
+                        <div class="details-sub">
+                            <h5>Bocadillo de calamares</h5>
+                            <h5 class="price"> 5,50€ </h5>
+                        </div>
+                        <p>Un bocadillo de pan con anillas de calamar rebozadas y fritas, acompañado de salsa alioli.</p>
+                        <!-- <button>Add To Cart</button> -->
+                    </div>
+                </div>
+        
+                <div class="food-items">
+                    <img src="/Grid Food Menu/img/bo-tortilla.jpeg">
+                    <div class="details">
+                        <div class="details-sub">
+                            <h5>Bocadillo de tortilla de patatas</h5>
+                            <h5 class="price"> 4,00€ </h5>
+                        </div>
+                        <p>Un bocadillo de pan con una porción de tortilla hecha con huevos, patatas y cebolla.</p>
+                        <!-- <button>Add To Cart</button> -->
+                    </div>
+                </div>
+        
+                <div class="food-items">
+                    <img src="/Grid Food Menu/img/bocadillo-de-queso-con-lomo-de-cerdo-y-cebolla-confitada.webp">
+                    <div class="details">
+                        <div class="details-sub">
+                            <h5>Bocadillo de lomo con queso y cebolla</h5>
+                            <h5 class="price"> 6,00€ </h5>
+                        </div>
+                        <p>		Un bocadillo de pan con lonchas de lomo de cerdo a la plancha, queso fundido y cebolla confitada.</p>
+                        <!-- <button>Add To Cart</button> -->
+                    </div>
+                </div>
+        
+                <div class="food-items">
+                    <img src="/Grid Food Menu/img/pollo-tomate-lechuga-queso.jpg">
+                    <div class="details">
+                        <div class="details-sub">
+                            <h5>Bocadillo de pollo con lechuga, mayonesa y queso</h5>
+                            <h5 class="price"> 5,00€ </h5>
+                        </div>
+                        <p>	Un bocadillo de pan con pechuga de pollo a la plancha, lechuga picada, mayonesa y queso parmessano fundido.</p>
+                        <!-- <button>Add To Cart</button> -->
+                    </div>
+                </div>
+        
+                <div class="food-items">
+                    <img src="/Grid Food Menu/img/chorizo-queso-cebolla.JPG">
+                    <div class="details">
+                        <div class="details-sub">
+                            <h5>Bocadillo de salchichón con queso y cebolla</h5>
+                            <h5 class="price"> 6,00€ </h5>
+                        </div>
+                        <p>	Un bocadillo de pan con salchichón ibérico, queso manchego y cebolla caramelizada.</p>
+                        <!-- <button>Add To Cart</button> -->
+                    </div>
+                </div>
+        
+                <div class="food-items">
+                    <img src="/Grid Food Menu/img/bacon-queso.webp">
+                    <div class="details">
+                        <div class="details-sub">
+                            <h5>Bocadillo de bacon con queso</h5>
+                            <h5 class="price"> 5,00€ </h5>
+                        </div>
+                        <p>	Un bocadillo de pan con bacon crujiente y queso fundido.</p>
+                        <!-- <button>Add To Cart</button> -->
+                    </div>
+                </div>
+
+                <div class="food-items">
+                    <img src="/Grid Food Menu/img/albon-pimiento.jpg">
+                    <div class="details">
+                        <div class="details-sub">
+                            <h5>Bocadillo de albóndigas de carne con pimientos</h5>
+                            <h5 class="price"> 4,00€ </h5>
+                        </div>
+                        <p>Un bocadillo de pan con albóndigas de carne vacuna y pimientos verdes fritos.</p>
+                        <!-- <button>Add To Cart</button> -->
+                    </div>
+                </div>
+                <div class="food-items">
+                    <img src="/Grid Food Menu/img/atun+tomate.jpg">
+                    <div class="details">
+                        <div class="details-sub">
+                            <h5>Bocadillo de atún con tomate</h5>
+                            <h5 class="price"> 3,00€ </h5>
+                        </div>
+                        <p>	Un bocadillo de pan con atún en aceite y tomate natural.</p>
+                        <!-- <button>Add To Cart</button> -->
+                    </div>
+                </div>
+                <div class="food-items">
+                    <img src="/Grid Food Menu/img/calamares-patatas.jpg">
+                    <div class="details">
+                        <div class="details-sub">
+                            <h5>Calamares con patatas</h5>
+                            <h5 class="price"> 7,00€ </h5>
+                        </div>
+                        <p>Ración de calamares a la gallega con salsa verde y especias acompañada de patatas de la casa.</p>
+                        <!-- <button>Add To Cart</button> -->
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+<!-- POSTRES Y CAFES -->
+        <div id="seccion_postres" class="seccion_entrantes">
+            <h2>&mdash; Postres y Cafés &mdash;</h2>
+            <div class="menu_entrantes">
+                <div class="food-items">
+                    <img src="/Grid Food Menu/img/flan.jpeg">
+                    <div class="details">
+                        <div class="details-sub">
+                            <h5>Flan</h5>
+                            <h5 class="price"> 2,00€ </h5>
+                        </div>
+                        <p>	Un postre hecho con huevos, leche y azúcar, que se cuece al baño maría y se cubre con caramelo líquido.</p>
+                        <!-- <button>Add To Cart</button> -->
+                    </div>
+                </div>
+
+                <div class="food-items">
+                    <img src="/Grid Food Menu/img/crema-catalana.jpg">
+                    <div class="details">
+                        <div class="details-sub">
+                            <h5>Crema catalana</h5>
+                            <h5 class="price"> 3,00€ </h5>
+                        </div>
+                        <p>Un postre cremoso hecho con leche, yemas de huevo, azúcar, maicena y canela, que se carameliza por encima con un soplete o una plancha.</p>
+                        <!-- <button>Add To Cart</button> -->
+                    </div>
+                </div>
+
+                <div class="food-items">
+                    <img src="/Grid Food Menu/img/arroz-leche.jpg">
+                    <div class="details">
+                        <div class="details-sub">
+                            <h5>Arroz con leche</h5>
+                            <h5 class="price"> 2,50€ </h5>
+                        </div>
+                        <p>		Un postre hecho con arroz, leche, azúcar, canela y cáscara de limón, que se cuece a fuego lento hasta que el arroz queda tierno y cremoso. Se sirve frío o caliente, con canela en polvo por encima.</p>
+                        <!-- <button>Add To Cart</button> -->
+                    </div>
+                </div>
+
+                <div class="food-items">
+                    <img src="/Grid Food Menu/img/tiramisu.webp">
+                    <div class="details">
+                        <div class="details-sub">
+                            <h5>Tiramisú</h5>
+                            <h5 class="price"> 5,00€ </h5>
+                        </div>
+                        <p>		Un pastel frío de origen italiano, hecho con capas de bizcochos de soletilla mojados en café y licor, y una crema de queso mascarpone, huevos y azúcar. Se espolvorea con cacao en polvo y se sirve refrigerado.</p>
+                        <!-- <button>Add To Cart</button> -->
+                    </div>
+                </div>
+
+                <div class="food-items">
+                    <img src="/Grid Food Menu/img/tarta de queso.jpeg">
+                    <div class="details">
+                        <div class="details-sub">
+                            <h5>Tarta de queso</h5>
+                            <h5 class="price"> 3,50€ </h5>
+                        </div>
+                        <p>	Una tarta de queso crema, huevos, nata y harina, que se hornea sobre una base de galletas y mantequilla.</p>
+                        <!-- <button>Add To Cart</button> -->
+                    </div>
+                </div>
+
+                <div class="food-items">
+                    <img src="/Grid Food Menu/img/Cafe-solo-scaled.jpg">
+                    <div class="details">
+                        <div class="details-sub">
+                            <h5>Café solo</h5>
+                            <h5 class="price"> 1,00€ </h5>
+                        </div>
+                        <p>	Un café expreso sin leche, servido en una taza pequeña.</p>
+                        <!-- <button>Add To Cart</button> -->
+                    </div>
+                </div>
+
+                <div class="food-items">
+                    <img src="/Grid Food Menu/img/cortado.webp">
+                    <div class="details">
+                        <div class="details-sub">
+                            <h5>Café cortado</h5>
+                            <h5 class="price"> 1,20€ </h5>
+                        </div>
+                        <p> Un café solo con un poco de leche.</p>
+                        <!-- <button>Add To Cart</button> -->
+                    </div>
+                </div>
+                <div class="food-items">
+                    <img src="/Grid Food Menu/img/con-leche.jpg">
+                    <div class="details">
+                        <div class="details-sub">
+                            <h5>Café con leche</h5>
+                            <h5 class="price"> 1,50€ </h5>
+                        </div>
+                        <p> Un café con la misma cantidad de leche que de café.</p>
+                        <!-- <button>Add To Cart</button> -->
+                    </div>
+                </div>
+                <div class="food-items">
+                    <img src="/Grid Food Menu/img/carajillo.jpg">
+                    <div class="details">
+                        <div class="details-sub">
+                            <h5>Café carajillo</h5>
+                            <h5 class="price"> 2,50€ </h5>
+                        </div>
+                        <p> Un café solo con un chorrito de licor, como brandy, ron o whisky.</p>
+                        <!-- <button>Add To Cart</button> -->
+                    </div>
+                </div>
+                <div class="food-items">
+                    <img src="/Grid Food Menu/img/cafe-bombon.jpg">
+                    <div class="details">
+                        <div class="details-sub">
+                            <h5>Café bombón</h5>
+                            <h5 class="price"> 2,00€ </h5>
+                        </div>
+                        <p> Un café expreso con leche condensada.</p>
+                        <!-- <button>Add To Cart</button> -->
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
+    <!-- Script Scroller -->
+    <script>
+        const scrollers = document.querySelectorAll(".scroller");
+
+        // If a user hasn't opted in for recuded motion, then we add the animation
+        if (!window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+        addAnimation();
+        }
+
+        function addAnimation() {
+        scrollers.forEach((scroller) => {
+            // add data-animated="true" to every `.scroller` on the page
+            scroller.setAttribute("data-animated", true);
+
+            // Make an array from the elements within `.scroller-inner`
+            const scrollerInner = scroller.querySelector(".scroller__inner");
+            const scrollerContent = Array.from(scrollerInner.children);
+
+            // For each item in the array, clone it
+            // add aria-hidden to it
+            // add it into the `.scroller-inner`
+            scrollerContent.forEach((item) => {
+            const duplicatedItem = item.cloneNode(true);
+            duplicatedItem.setAttribute("aria-hidden", true);
+            scrollerInner.appendChild(duplicatedItem);
+            });
+        });
+        }
+    </script>
+</body>
+</html>
